@@ -3,8 +3,8 @@ CareConnect is a web-based health platform that helps users monitor symptoms, tr
 
 Features:
 - AI-powered symptom checker
-- Medication tracking
-- Mood monitoring
+- Medication prescribing
+- mental health advisor
 
 Technology:
 React.js, Tailwind CSS, Node.js, Express.js, OpenAI API
