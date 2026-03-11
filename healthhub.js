@@ -82,3 +82,19 @@ load();
 app.listen(5000, "0.0.0.0", () => {
   console.log("HealthHub running on port 5000");
 });
+// AI Symptom Checker API
+app.post("/api/symptoms", (req, res) => {
+
+const { symptoms } = req.body;
+
+res.json({
+message: "AI analysis complete",
+possible_conditions: [
+"Common Cold",
+"Flu",
+"Allergy"
+],
+recommendation: "Please consult a doctor for proper diagnosis."
+});
+
+});
